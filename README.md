@@ -14,16 +14,21 @@ An API wrapper for openerp
 
 ## Internal Stuff
 
-* npm run-script watch
+docs
+test
+watch --> compiles, triggers test
+remove unused grunts
+release compiles first
 
-## Publish new version
 
-* Change version in package.json
-git add . -A
-git commit -m "Upgrading to v0.2.3"
-git tag -a v0.2.3 -m 'version 0.2.3'
-git push --tags
-npm publish
+## Stuff
+node_modules/.bin/grunt                   # Starts the watch & test run
+node_modules/.bin/grunt coffee            # Compiles the coffeescript
+
+node_modules/.bin/grunt release
+node_modules/.bin/grunt release:minor
+node_modules/.bin/grunt release:major
+
 
 ## Contributing to node-openerp2
  

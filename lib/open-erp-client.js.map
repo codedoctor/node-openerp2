@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "open-erp-client.js",
+  "sourceRoot": "../src/",
+  "sources": [
+    "open-erp-client.coffee"
+  ],
+  "names": [],
+  "mappings": "AAEA;CAAA,KAAA,OAAA;;AAAiB,CAAjB,CAAA,CAAiB,GAAX,CAAN;CACe,EAAA,CAAA,IAAA,eAAC;;CAAd;;CADF;CAAA"
+}
