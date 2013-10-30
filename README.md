@@ -22,6 +22,10 @@ release compiles first
 
 
 ## Stuff
+
+npm test
+npm run-script docs
+
 node_modules/.bin/grunt                   # Starts the watch & test run
 node_modules/.bin/grunt coffee            # Compiles the coffeescript
 
