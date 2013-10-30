@@ -1,0 +1,45 @@
+{
+  "author": "Martin Wawrusch <martin@wawrusch.com> (http://martinatsunset.com)",
+  "name": "openerp2",
+  "description": "OpenErp API Wrapper",
+  "version": "0.0.1",
+  "main" : "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/codedoctor/node-openerp2.git"
+  },
+  "bin" : {
+  },
+  "directories" : {
+    "lib" : "./lib",
+    "test" : "./test"
+  },
+  "keywords" : [
+    "api","rest"
+  ],
+  "scripts": {
+    "prepublish" : "coffee -c -o lib src",
+    "watch" : "coffee -c -w  -o lib src",
+    "test": "coffee -c -o lib src;NODE_ENV=test node_modules/.bin/mocha --timeout 10000 -R spec test/*.coffee",
+    "docs": "node_modules/.bin/codo -i ./src -o ./doc"
+  },
+  "engines": {
+  },
+  "dependencies": {
+    "async": "0.1.22",
+    "underscore" : ">=1.4.3"
+  },
+  "devDependencies": {
+    "coffee-script": "1.4.0",
+    "should": "1.2.1",
+    "mocha": "1.6.0",
+    "codo" : "1.5.4"
+  },
+  "bugs": { "url": "http://github.com/codedoctor/node-openerp2/issues" },
+  "licenses": [
+    { "type": "MIT",
+      "url": "http://github.com/codedoctor/node-openerp2/raw/master/LICENSE"
+    }
+  ]
+  
+}
