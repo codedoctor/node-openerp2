@@ -26,7 +26,8 @@
   },
   "dependencies": {
     "async": "0.2.9",
-    "underscore" : "1.5.2"
+    "underscore" : "1.5.2",
+    "xmlrpc": "1.1.1"
   },
   "devDependencies": {
     "coffee-script": "1.6.3",

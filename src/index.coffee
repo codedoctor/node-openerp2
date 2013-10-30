@@ -6,5 +6,6 @@ OpenErpClient = require('./open-erp-client')
 
 module.exports =
   OpenErpClient: OpenErpClient
+
   client: (settings = {}) ->
-    new OpenErpClient(settings)
+    new OpenErpClient settings
